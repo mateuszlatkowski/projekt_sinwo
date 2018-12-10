@@ -3,13 +3,24 @@
 
 # In[ ]:
 
-class klasa1:
+import math
+
+class EuclideanAlgorithm:
     
     def __init__(self):
-        self.nazwa_funkcji = "funkcja1"
+        self.name = "Algorytm Euklidesa"
         
+    def NWD(self, a, b):
+        """Is an efficient method for computing the greatest common divisor of two numbers (a, b)"""
+        while a != b:
+            if a > b:
+                a -= b
+            else:
+                b -= a
+        return a
+    
     def __repr__(self):
-        return "test klasy1"
+        return self.name
     
     def __str__(self):
         return self.__repr__()
