@@ -26,13 +26,18 @@ class EuclideanAlgorithm:
         return self.__repr__()
 
 
-class klasa2:
+class LeastCommonMultiple(EuclideanAlgorithm):
     
     def __init__(self):
-        self.nazwa_funkcji = "funkcja2"
+        self.nazwa = "Najwieksza Wspolna Wielokrotnosc"
+        
+    def NWW(self, a, b):
+        """Is the smallest positive integer that is divisible by both a and b"""
+        nww = (a / self.NWD(a, b)) * b
+        return nww
     
     def __repr__(self):
-        return "test klasy2"
+        return self.nazwa
     
     def __str__(self):
         return self.__repr__()
