@@ -73,4 +73,25 @@ class FermatFactorization:
     
     def __str__(self):
         return self.__repr__()
+    
+    
+class BubbleSort:
+    
+    def __init__(self):
+        self.nazwa = "Algorytm Sortowania Bubble Sort"
+        
+    def bsort(self, data):
+        """Is a simple algorithm that repeatedly steps through the list, compares adjacent pairs and swaps them if they are in the wrong order"""
+        for i in range(len(data)-1, 1, -1):
+            for j in range(0, i):
+                if data[j] > data[j+1]:
+                    data[j+1], data[j] = data[j], data[j+1]
+        return data
+    
+    def __repr__(self):
+        return self.nazwa
+    
+    def __str__(self):
+        return self.__repr__()
+    
 
