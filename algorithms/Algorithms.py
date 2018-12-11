@@ -116,6 +116,28 @@ class FibonacciNumber:
         return self.__repr__()
     
     
+class HanoiTower:
+    
+    def __init__(self):
+        self.name = "Wieza Hanoi"
+        
+    def Hanoi(self, N, z='A', na='C', przez='B'):
+        """Recursive Hanoi Tower"""
+        if N == 1:           
+            print (z, "->", na) 
+            return
+
+        self.Hanoi(N - 1, z=z, na=przez, przez=na)
+        self.Hanoi(1, z=z, na=na, przez=przez)
+        self.Hanoi(N - 1, z=przez, na=na, przez=z)
+        
+    def __repr__(self):
+        return self.name
+    
+    def __str__(self):
+        return self.__repr__()
+    
+    
     
     
 
