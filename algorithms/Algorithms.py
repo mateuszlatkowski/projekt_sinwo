@@ -26,7 +26,7 @@ class Euclidean:
     def __str__(self):
         return self.__repr__()
 
-
+      
 class LCM:
     
     def __init__(self):
@@ -105,10 +105,9 @@ class Quadratic_formula:
     
     def __repr__(self):
         return self.algorithm_name
-    
+      
     def __str__(self):
         return self.__repr__()
-    
 
 class Hanoi:
     
@@ -175,8 +174,8 @@ class FermatFactorization:
     
     def __str__(self):
         return self.__repr__()
-    
 
+      
 class BubbleSort:
     
     def __init__(self):
