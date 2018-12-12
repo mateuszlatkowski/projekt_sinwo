@@ -77,7 +77,7 @@ class Fibonacci:
     def __str__(self):
         return self.__repr__()
 
-      
+
 class Quadratic_formula:
     
     def __init__(self):
@@ -105,7 +105,9 @@ class Quadratic_formula:
     
     def __repr__(self):
         return self.algorithm_name
-
+      
+    def __str__(self):
+        return self.__repr__()
 
 class Hanoi:
     
@@ -133,26 +135,9 @@ class Hanoi:
     def __repr__(self):
         return self.algorithm_name
     
-    
-class BubbleSort:
-    
-    def __init__(self):
-        self.name = "Algorytm Sortowania Bubble Sort"
-        
-    def bsort(self, data):
-        """Is a simple algorithm that repeatedly steps through the list, compares adjacent pairs and swaps them if they are in the wrong order"""
-        for i in range(len(data)-1, 1, -1):
-            for j in range(0, i):
-                if data[j] > data[j+1]:
-                    data[j+1], data[j] = data[j], data[j+1]
-        return data
-    
-    def __repr__(self):
-        return self.name
-      
     def __str__(self):
         return self.__repr__()
-      
+    
 
 class FermatFactorization:
     
