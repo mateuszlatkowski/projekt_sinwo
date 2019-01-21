@@ -5,4 +5,4 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest ./main/test.py
+  - pytest ./algorithms/test_sample.py
