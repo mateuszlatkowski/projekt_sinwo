@@ -2,7 +2,7 @@ from .Algorithms import *
 import pytest
 
 def test_Euclidean_1():
-    assert Algorithms.Euclidean().executes(2310, 525) == 105
+    assert Algorithms().Euclidean().executes(2310, 525) == 105
 
 def test_LCM():
     assert Algorithms.LCM().executes(2310, 525) == 11550
