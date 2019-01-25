@@ -1,4 +1,4 @@
-from .Algorithms import *
+from Algorithms import *
 import pytest
 
 def test_Euclidean_1():
