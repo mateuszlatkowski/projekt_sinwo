@@ -40,11 +40,26 @@ def test_Quadratic_formula():
 def test_FermatFactorization():
     assert algorithms.FermatFactorization().executes(855855) == [3, 3, 5, 7, 11, 13, 19]
 
+def test_FermatFactorization2():
+    assert algorithms.FermatFactorization().executes(100) == [2, 2, 2, 5, 5, 5.0]
+
+def test_FermatFactorizationZero():
+    assert algorithms.FermatFactorization().executes(0) == 0
+
 def test_Hanoi():
     assert algorithms.Hanoi().executes(10) == 1023
 
-def test_Hanoi():
+def test_Hanoi2():
+    assert algorithms.Hanoi().executes(1) == None
+
+def test_Hanoi3():
     assert algorithms.Hanoi().executes(4) == 15
 
 def test_BubbleSort():
     assert algorithms.BubbleSort().executes([5, 3, 8, 7, 0, 1, 9, 2, 4, 10, 6]) == [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+def test_BubbleSort2():
+    assert algorithms.BubbleSort().executes([1, 2, 3]) == [1, 2, 3]
+
+def test_BubbleSort3():
+    assert algorithms.BubbleSort().executes([1]) == [1]
