@@ -17,7 +17,7 @@ def test_LCM1():
     assert algorithms.LCM().executes(4, 4) == 4.0
 
 def test_LCM2():
-    assert algorithms.LCM().executes(525, 525) == 11550
+    assert algorithms.LCM().executes(525, 525) == 525
 
 def test_Fibonacci():
     assert algorithms.Fibonacci().executes(5) == [0, 1, 1, 2, 3, 5]
