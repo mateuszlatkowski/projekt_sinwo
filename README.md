@@ -2,7 +2,7 @@
 _____________________________________________________________________________________
 Autorzy:
 
-Mateusz Latkowski, Mateusz Liber & Antoni Goszcz
+Mateusz Latkowski & Mateusz Liber & Antoni Goszcz
 _____________________________________________________________________________________
 Informacje:
 
