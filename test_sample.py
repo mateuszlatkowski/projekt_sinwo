@@ -40,9 +40,6 @@ def test_Quadratic_formula():
 def test_FermatFactorization():
     assert algorithms.FermatFactorization().executes(855855) == [3, 3, 5, 7, 11, 13, 19]
 
-def test_FermatFactorization2():
-    assert algorithms.FermatFactorization().executes(100) == [2, 2, 2, 5, 5, 5.0]
-
 def test_FermatFactorizationZero():
     assert algorithms.FermatFactorization().executes(0) == 0
 
